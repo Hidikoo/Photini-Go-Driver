@@ -9,7 +9,9 @@
 
 **Photini's Go-Driver** is a modular, ethics-first toolkit for social advocacy, legal aid, and emergency field support. Built for NGOs, human rights defenders, and grassroots organizations—especially those protecting vulnerable children and asylum seekers.
 
-🔗 **[→ Full Documentation Go-Driver README (HTML)](https://hidikoo.github.io/Photini-Go-Driver/)** | **[📖 index.html](./index.html)**
+**Status:** **Architecture phase, schema-first.** DB schema, DB logic and the approved-source RAG registers — ECtHR jurisprudence, legality-supervision rulings, UN communications — are being built to court standard and validated on a live ECtHR submission (Q1 2027) before the backend resumes; the MVP follows. The sequence is the feature: a system that audits evidence must first prove itself on evidence. When children's evidence is the payload, built right beats built fast.
+
+🔗 **[→ Full Documentation (GitHub Pages)](https://hidikoo.github.io/Photini-Go-Driver/)**
 
 ---
 
@@ -17,7 +19,7 @@
 
 | Resource | Description |
 |----------|-------------|
-| **[Full README](./index.html)** | Interactive HTML documentation |
+| **[Full Documentation (Pages)](https://hidikoo.github.io/Photini-Go-Driver/)** | Interactive HTML documentation |
 | **[Compliance Principles](./docs/COMPLIANCE_PRINCIPLES.md)** | Ethics framework (ISO/GDPR/UNCRC) |
 | **[Technical Controls](./docs/TECHNICAL-CONTROLS-v1-design.md)** | Implementation guide (design peek) |
 | **[Architecture Diagram](./docs/Public_ASCII_white.png)** | Visual system overview |
@@ -43,12 +45,12 @@
 
 | Standard | Status | Target |
 |----------|--------|--------|
-| **GDPR** | ✅ Active | Embedded |
-| **EU AI Act** | ✅ Active | Embedded |
-| **UNCRC** | ✅ Active | Embedded |
-| **ISO 27001** | 🔄 Prep | Q3 2026 |
-| **ISO 27701** | 🔄 Prep | Q3 2026 |
-| **ISO 42001** | 🔄 Prep | Q4 2026 |
+| **GDPR** | ✅ By design | Embedded in schema, API logic & AI workflows |
+| **EU AI Act** | ✅ By design | Embedded in schema, API logic & AI workflows |
+| **UNCRC** | ✅ By design | Embedded in schema, API logic & AI workflows |
+| **ISO 27001** | 🔄 In preparation | 2027 |
+| **ISO 27701** | 🔄 In preparation | 2027 |
+| **ISO 42001** | 🔄 In preparation | 2027 |
 
 **Learn more:** [Compliance Framework](./docs/COMPLIANCE_PRINCIPLES.md)
 
@@ -67,10 +69,10 @@ Review our [Compliance Principles](./docs/COMPLIANCE_PRINCIPLES.md) and [Impleme
 
 | **Photini Family Higher-Level Principles for Ethics & Compliance PDFs:** |
 |------------------------------------------------------------------------------|
-| 📄 **[Executive Summary (PDF)](./docs/compliance-principles-executive-summary-v1.0..pdf)** |
+| 📄 **[Executive Summary (PDF)](./docs/compliance-principles-executive-summary-v1.0.pdf)** |
 | 📄 **[Full Document (PDF)](./docs/compliance-principles-full-v1.0.pdf)** |
 
-Auditor & Investor Note: These documents provide a foundational overview of Photini’s ethical AI governance, forensic evidence chain standards, and multi-jurisdictional regulatory alignment (GDPR, EU AI Act, UNCRC). They are optimized for institutional due diligence and impact-funding reviews
+Auditor & Investor Note: These documents provide a foundational overview of Photini’s ethical AI governance, forensic evidence chain standards, and multi-jurisdictional regulatory alignment (GDPR, EU AI Act, UNCRC). They are optimized for institutional due diligence and impact-funding reviews.
 
 ---
 
@@ -95,27 +97,21 @@ Go-Driver is part of the **Photini Family** ecosystem:
 
 ## 📋 License
 
-**© 2025 Photini Family™** – All rights reserved
+**© 2025–2026 Photini Family™** – All rights reserved
 
 ---
 
 **Stories that heal | Technology that protects | Networks that unite**
 
-*Building the future of ethical AI for human rights advocacy.*# Photini's Go-Driver
-Next-Generation Advocacy &amp; Compliance Platform. Go-Driver is a modular, privacy-first toolkit for social advocacy, legal aid, and emergency field teams—designed for NGOs, legal professionals, and grassroots projects. Powered by AI, designed for compliance, and architected for real-world impact in Europe and beyond.
-
-[Link to full README](https://hidikoo.github.io/Photini-Go-Driver/)
+*Building the future of ethical AI for human rights advocacy.*
 
 ---
 
-![Accessibility 90/100](https://img.shields.io/badge/Accessibility-90%2F100-green) &#124; ![SEO 100/100](https://img.shields.io/badge/SEO-100%2F100-brightgreen)
+![Performance 98/100](https://img.shields.io/badge/Performance-98%2F100-brightgreen) &#124; ![Accessibility 90/100](https://img.shields.io/badge/Accessibility-90%2F100-green) &#124; ![Best Practices 100/100](https://img.shields.io/badge/Best%20Practices-100%2F100-brightgreen) &#124; ![SEO 100/100](https://img.shields.io/badge/SEO-100%2F100-brightgreen)
 
-This site scores **90/100 on Accessibility** and **100/100 on SEO** with Google Lighthouse.
-
-[See 🖥️ & 📱 reports (PDFs) in full README](https://hidikoo.github.io/Photini-Go-Driver/)
+The [documentation site](https://hidikoo.github.io/Photini-Go-Driver/) scores (average desktop & mobile) **98/100 on Performance**, **90/100 on Accessibility**, and **100/100 on SEO and Best Practices** with Google Lighthouse.
+See 🖥️ & 📱 reports (PDFs) on the [documentation site](https://hidikoo.github.io/Photini-Go-Driver/).
 
 ---
 
-© 2025 Heidi Kalske-Akintobi | Photini Family™ | All rights reserved.
-
-
+© 2025–2026 Heidi Kalske-Akintobi | Photini Family™ | All rights reserved.
