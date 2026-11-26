@@ -1,4 +1,4 @@
-            <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Privacy-friendly analytics by Plausible -->
@@ -541,7 +541,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center; 
-            gap: 4rem 2,5rem;
+            gap: 4rem 2.5rem;
             max-width: 1200px;
             margin-left: auto;
             margin-right: auto;
@@ -723,12 +723,12 @@
         }
      
         .footer-section p {
-           color: #007A8C;   
+           color: var(--cyan-light);   
            opacity: 1;
         }
 
          .footer-bottom p {
-           color: #009DB5;   
+           color: var(--cyan-light);   
            opacity: 1;
         }
 
@@ -759,7 +759,7 @@
             .nav-right { flex-direction: column; gap: 0.5rem; width: 100%; }
             .hero { padding: 3rem 1.5rem; }
             .hero p { font-size: 1.05rem; }
-            .hero-logos { gap: 1,5rem; }
+            .hero-logos { gap: 1.5rem; }
             .hero-logo-item { width: 80px; height: 80px; }
             .hero-logo-primary { width: 140px; height: 140px; }
             .hero-logo-secondary { width: 90px; height: 90px; }
@@ -771,7 +771,6 @@
             .feature-content { grid-template-columns: 1fr; gap: 2rem; }
             .card-grid { grid-template-columns: 1fr; }
             .btn { display: block; margin: 0.75rem 0; }
-        }
         }
     </style>
 </head>
@@ -803,7 +802,7 @@
     <!-- HERO -->
     <section class="hero">
         <h1>Next-Generation Advocacy & Compliance Platform</h1>
-        <span class="readiness-badge">✓ EU AI ACT & GDPR READY</span>
+        <span class="readiness-badge">⚖️ Compliance by Design · GDPR · EU AI Act</span>
         <div class="hero-logos">
         <img src="./docs/images/Go-Driver-logo_192px.png" alt="Go-Driver" class="hero-logo-item">
         </div>
@@ -830,11 +829,15 @@
             </p>
 
             <p style="font-size: 1.05rem; margin-top: 1rem;">
-                <strong>Built for NGOs, lawyers, and grassroots defenders protecting vulnerable populations. Engineered for full EU AI Act & GDPR compliance from day one.</strong>
+                <strong>Built for NGOs, lawyers, and grassroots defenders protecting vulnerable populations. Engineered for EU AI Act & GDPR alignment from day one.</strong>
             </p>
             
             <div class="highlight" style="border-left: 4px solid var(--primary-cyan); padding-left: 1.5rem;"><p style="font-size: 1.05rem;">
                 <strong>Core Philosophy:</strong></p><blockquote style="font-style: italic; font-size: 1.15rem; color: var(--text-dark);"> "Misinformation is more dangerous than responsible data sharing. We build systems that protect truth, privacy, and human dignity—with AI as a partner, not a replacement." </blockquote>
+            </div>
+
+            <div class="highlight">
+                <p style="font-size: 1.05rem;"><strong>Status:</strong> <strong>Architecture phase, schema-first.</strong> DB schema, DB logic and the approved-source RAG registers — ECtHR jurisprudence, legality-supervision rulings, UN communications — are being built to court standard and validated on a live ECtHR submission (Q1 2027) before the backend resumes; the MVP follows. The sequence is the feature: a system that audits evidence must first prove itself on evidence. When children's evidence is the payload, built right beats built fast.</p>
             </div>
             
             <h3>The Problem We Solve</h3>
@@ -972,14 +975,14 @@
                       <img src="./docs/images/Go-Driver-logo_192px.png" alt="Go-Driver Logo" class="ecosystem-logo">
                       <h4>Photini's Go-Driver</h4>
                       <p>AI-powered co-pilot for case management, compliance automation, and trauma-sensitive workflows</p>
-                      <span class="ecosystem-status status-building">Alpha → MVP</span>
+                      <span class="ecosystem-status status-building">Architecture phase · MVP 2027</span>
                   </div>
                 
                   <div class="ecosystem-card">
                       <img src="./docs/images/cosmic-bear_200px.png" alt="Cosmic Bear Adventures" class="ecosystem-logo">
                       <h4>Cosmic Bear Adventures</h4>
                       <p>Trauma-informed children's book series supporting separated families through healing stories</p>
-                      <span class="ecosystem-status status-mvp">Q2-Q4 2026</span>
+                      <span class="ecosystem-status status-planned">Safeguarding review · 2027</span>
                   </div>
               </div>
           </div>
@@ -1001,7 +1004,7 @@
                       <img src="./docs/images/photini-logo-gold-turqoise_192px.png" alt="Photini Phoní" class="ecosystem-logo">
                       <h4>Photini Phoní</h4>
                       <p>Multilingual translation and documentation for trauma-sensitive conversations</p>
-                      <span class="ecosystem-status status-planned">Q3-Q4 2026</span>
+                      <span class="ecosystem-status status-planned">2027</span>
                   </div>
                 
                   <div class="ecosystem-card">
@@ -1023,14 +1026,14 @@
                       <img src="./docs/images/photini-logo-eveningstar_V2_192px.png" alt="Rhea Network" class="ecosystem-logo">
                       <h4>Rhea Network Hub</h4>
                       <p>Collaborative framework for humanitarian aid and NGO coordination under ethics-driven infrastructure</p>
-                      <span class="ecosystem-status status-planned">Q3 2026</span>
+                      <span class="ecosystem-status status-planned">2027</span>
                   </div>
                 
                   <div class="ecosystem-card">
                       <img src="./docs/images/photini-logo-rhea-V2_192px.png" alt="Rhea Wisdom" class="ecosystem-logo">
                       <h4>Rhea Wisdom</h4>
                       <p>Research and knowledge-management layer linking field data to policy and education</p>
-                      <span class="ecosystem-status status-building">Q2-Q4 2026</span>
+                      <span class="ecosystem-status status-building">In building</span>
                   </div>
                 
                   <div class="ecosystem-card">
@@ -1088,32 +1091,32 @@
                 <tbody>
                     <tr>
                         <td><strong>GDPR (EU 2016/679)</strong></td>
-                        <td><span class="status-badge status-active">✓ Active</span></td>
+                        <td><span class="status-badge status-active">By design</span></td>
                         <td>Privacy by Design (Art. 25), Data Subject Rights (Art. 15-22)</td>
                     </tr>
                     <tr>
                         <td><strong>EU AI Act (2024)</strong></td>
-                        <td><span class="status-badge status-active">✓ Active</span></td>
+                        <td><span class="status-badge status-active">By design</span></td>
                         <td>Transparency (Art. 13), Human Oversight, Prohibited Practices (Art. 5)</td>
                     </tr>
                     <tr>
                         <td><strong>UNCRC (UN Child Rights)</strong></td>
-                        <td><span class="status-badge status-active">✓ Active</span></td>
+                        <td><span class="status-badge status-active">By design</span></td>
                         <td>Child-centered design, trauma sensitivity, family integrity protections</td>
                     </tr>
                     <tr>
                         <td><strong>ISO 27001:2022</strong></td>
-                        <td><span class="status-badge status-planned">⏳ Q3 2026</span></td>
+                        <td><span class="status-badge status-planned">⏳ 2027</span></td>
                         <td>Information Security Management certification</td>
                     </tr>
                     <tr>
                         <td><strong>ISO 27701:2025</strong></td>
-                        <td><span class="status-badge status-planned">⏳ Q3 2026</span></td>
+                        <td><span class="status-badge status-planned">⏳ 2027</span></td>
                         <td>Privacy Information Management System</td>
                     </tr>
                     <tr>
                         <td><strong>ISO 42001:2023</strong></td>
-                        <td><span class="status-badge status-planned">⏳ Q4 2026</span></td>
+                        <td><span class="status-badge status-planned">⏳ 2027</span></td>
                         <td>AI Management System governance</td>
                     </tr>
                 </tbody>
@@ -1189,7 +1192,7 @@
                 <div class="card">
                     <div class="card-icon">🏛️</div>
                     <h4>Photini Family's Compliance Principles</h4>
-                    <p>Review our compliance documentation. Validate self-audit processes. Prepare for ISO certification Q3 2026.</p>
+                    <p>Review our compliance documentation. Validate self-audit processes. ISO certification track opens 2027.</p>
                     <a href="./docs/COMPLIANCE_PRINCIPLES.md" class="btn btn-secondary">Read Compliance Principles</a>
                 </div>
             </div>
@@ -1246,7 +1249,7 @@
         <div class="footer-bottom">
             <p><strong>Stories that heal | Technology that protects | Networks that unite</strong></p>
             <p style="margin-top: 1rem;">
-                © 2025 Photini Family™ – All Rights Reserved
+                © 2025–2026 Photini Family™ – All Rights Reserved
             </p>
         <div class="footer-achievements" style="margin-top:0.5em; text-align:center;">
           <span class="footer-achievements-badges">
@@ -1256,50 +1259,12 @@
             <img src="https://img.shields.io/badge/SEO-100%2F100-brightgreen" alt="SEO 100/100">
           </span>
           <br><br>
-          <span style="font-size:0.97em; color:#A8D5E2;">This site scores (average desktop & mobile) <b>98/100 on Performance</b>, <b>90/100 on Accessibility, and 100/100 SEO, and Best Practices</b> with Google Lighthouse.<br>
+          <span style="font-size:0.97em; color:#A8D5E2;">This site scores (average desktop & mobile) <b>98/100 on Performance</b>, <b>90/100 on Accessibility</b>, and <b>100/100 on SEO and Best Practices</b> with Google Lighthouse.<br>
             <a href="./docs/Google-Lighthouse-SEO-Accessibility_Go-Driver_Desktop-2025-10-24.pdf" target="_blank" style="color:#70B6C8; text-decoration:underline;">See 🖥️ report (PDF)</a>&nbsp;|&nbsp;
             <a href="./docs/Google-Lighthouse-SEO-Accessibility_Go-Driver_Mobile-2025-10-24.pdf" target="_blank" style="color:#70B6C8; text-decoration:underline;">See 📱 report (PDF)</a>
           </span>
         </div>
+        </div>
     </footer>   
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
