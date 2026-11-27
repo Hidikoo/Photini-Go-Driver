@@ -22,7 +22,7 @@
 | **[Full Documentation (Pages)](https://hidikoo.github.io/Photini-Go-Driver/)** | Interactive HTML documentation |
 | **[Compliance Principles](./docs/COMPLIANCE_PRINCIPLES.md)** | Ethics framework (ISO/GDPR/UNCRC) |
 | **[Technical Controls](./docs/TECHNICAL-CONTROLS-v1-design.md)** | Implementation guide (design peek) |
-| **[Architecture Diagram](./docs/Public_ASCII_white.png)** | Visual system overview |
+| **[Architecture Diagram](./docs/Go-Driver-Interface_Layout_Overview_public_2027.png)** | Visual system overview |
 | **[Roadmap](./docs/roadmap.md)** | 12-month development timeline |
 | **[Vision & Strategy](./docs/roadmap-vision.md)** | Long-term goals |
 | **[Flashcards & Q&A](./docs/Go-Driver-Flashcards-n-QnA.md)** | Quick reference guide |
