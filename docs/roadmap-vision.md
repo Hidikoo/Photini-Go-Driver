@@ -1,3 +1,7 @@
+> **Status note (28 November 2026):** This vision document reflects the v0.5 Ethics Core Alpha stage (October 2025). Go-Driver is in the schema-first architecture phase; development resumes in the Q1 2027 sequence, validated on a live ECtHR submission before the backend build continues. For the current Photini Family Compliance Principles — v1.2, interactive — see **[photini.org](https://photini.org)**.
+
+---
+
 ## **Navigation**
 
 🏠 **[← Back to Main README](https://github.com/Hidikoo/Photini-Go-Driver)**  
@@ -143,4 +147,3 @@ And this time — we will not forget.
 🎴 **[Flashcards & Q&A](./Go-Driver-Flashcards-n-QnA.md)**
 
 ---
-

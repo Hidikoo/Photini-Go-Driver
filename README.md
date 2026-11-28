@@ -11,7 +11,8 @@
 
 **Status:** **Architecture phase, schema-first.** DB schema, DB logic and the approved-source RAG registers — ECtHR jurisprudence, legality-supervision rulings, UN communications — are being built to court standard and validated on a live ECtHR submission (Q1 2027) before the backend resumes; the MVP follows. The sequence is the feature: a system that audits evidence must first prove itself on evidence. When children's evidence is the payload, built right beats built fast.
 
-🔗 **[→ Full Documentation (GitHub Pages)](https://hidikoo.github.io/Photini-Go-Driver/)**
+🔗 **[→ Full Documentation (GitHub Pages)](https://hidikoo.github.io/Photini-Go-Driver/)**  
+⚖️ **[→ Compliance Principles v1.2 — interactive edition (photini.org)](https://photini.org)**
 
 ---
 
@@ -20,7 +21,7 @@
 | Resource | Description |
 |----------|-------------|
 | **[Full Documentation (Pages)](https://hidikoo.github.io/Photini-Go-Driver/)** | Interactive HTML documentation |
-| **[Compliance Principles](./docs/COMPLIANCE_PRINCIPLES.md)** | Ethics framework (ISO/GDPR/UNCRC) |
+| **[Compliance Principles v1.2 — photini.org](https://photini.org)** | Interactive edition: 158-instrument glossary, nine figures · [repo pointer](./docs/COMPLIANCE_PRINCIPLES.md) |
 | **[Technical Controls](./docs/TECHNICAL-CONTROLS-v1-design.md)** | Implementation guide (design peek) |
 | **[Architecture Diagram](./docs/Go-Driver-Interface_Layout_Overview_public_2027.png)** | Visual system overview |
 | **[Roadmap](./docs/roadmap.md)** | 12-month development timeline |
@@ -47,12 +48,12 @@
 |----------|--------|--------|
 | **GDPR** | ✅ By design | Embedded in schema, API logic & AI workflows |
 | **EU AI Act** | ✅ By design | Embedded in schema, API logic & AI workflows |
-| **UNCRC** | ✅ By design | Embedded in schema, API logic & AI workflows |
+| **UN CRC** | ✅ By design | Embedded in schema, API logic & AI workflows |
 | **ISO 27001** | 🔄 In preparation | 2027 |
 | **ISO 27701** | 🔄 In preparation | 2027 |
 | **ISO 42001** | 🔄 In preparation | 2027 |
 
-**Learn more:** [Compliance Framework](./docs/COMPLIANCE_PRINCIPLES.md)
+**Learn more:** [Compliance Principles v1.2 — interactive edition at photini.org](https://photini.org)
 
 ---
 
@@ -65,14 +66,15 @@ Review our [Technical Controls](./docs/TECHNICAL-CONTROLS-v1-design.md) and subm
 Pilot Go-Driver with your cases. Contact: [hello@photini.family](mailto:hello@photini.family)
 
 ### For Auditors & Investors
-Review our [Compliance Principles](./docs/COMPLIANCE_PRINCIPLES.md) and [Implementation Roadmap](./docs/roadmap.md).
+Review our [Compliance Principles v1.2](https://photini.org) and [Implementation Roadmap](./docs/roadmap.md).
 
-| **Photini Family Higher-Level Principles for Ethics & Compliance PDFs:** |
+| **Photini Family Higher-Level Principles for Ethics & Compliance:** |
 |------------------------------------------------------------------------------|
-| 📄 **[Executive Summary (PDF)](./docs/compliance-principles-executive-summary-v1.0.pdf)** |
-| 📄 **[Full Document (PDF)](./docs/compliance-principles-full-v1.0.pdf)** |
+| 🌐 **[Compliance Principles v1.2 — interactive edition at photini.org](https://photini.org)** ← current canonical version (28 Nov 2026) |
+| 📄 [Executive Summary (PDF, v1.0 — superseded)](./docs/compliance-principles-executive-summary-v1.0.pdf) |
+| 📄 [Full Document (PDF, v1.0 — superseded)](./docs/compliance-principles-full-v1.0.pdf) |
 
-Auditor & Investor Note: These documents provide a foundational overview of Photini’s ethical AI governance, forensic evidence chain standards, and multi-jurisdictional regulatory alignment (GDPR, EU AI Act, UNCRC). They are optimized for institutional due diligence and impact-funding reviews.
+Auditor & Investor Note: The current due-diligence edition is v1.2 at [photini.org](https://photini.org), with a 158-instrument source register and nine canonical figures. The v1.0 PDFs (October 2025) remain for the historical record; they provide a foundational overview of Photini’s ethical AI governance, forensic evidence chain standards, and multi-jurisdictional regulatory alignment (GDPR, EU AI Act, UN CRC), optimized for institutional due diligence and impact-funding reviews.
 
 ---
 

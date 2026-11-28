@@ -1,3 +1,7 @@
+> **Status note (28 November 2026):** This roadmap reflects the v0.5 Ethics Core Alpha plan (October 2025). Go-Driver is in the schema-first architecture phase; development resumes in the Q1 2027 sequence, validated on a live ECtHR submission before the backend build continues. For the current Photini Family Compliance Principles — v1.2, interactive — see **[photini.org](https://photini.org)**.
+
+---
+
 ## **Navigation**
 
 🏠 **[← Back to Main README](https://github.com/Hidikoo/Photini-Go-Driver)**  
@@ -102,7 +106,7 @@ The project integrates a Chrome-based frontend, Node.js backend, and a modular d
 - Drivers communicate via context bus without crash.  
 - AI requests route correctly through provider selector.  
 - Ethicist stub logs decisions to Activity Log.  
-- At least one complete multi-Driver workflow executed (start → review → output).  
+- At least one complete multi-Driver workflow executed (start → review → output).
 
 ---
 
@@ -293,9 +297,9 @@ Storage (GoDB / Knowledge Graph)
 - When federated nodes arrive (v1.0+), these same version tokens will secure multi-user provenance.
 
 **Success Indicators**
-- Commit log shows consistent semantic versions.  
-- No unverified file leaves local storage.  
-- Every GitHub push includes ethics metadata block.  
+- Commit log shows consistent semantic versions.
+- No unverified file leaves local storage.
+- Every GitHub push includes ethics metadata block.
 - Session rollback restores exact thread state.
 
 ---
